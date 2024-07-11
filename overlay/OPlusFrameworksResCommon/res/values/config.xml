@@ -125,4 +125,10 @@
          fp screen off unlock-->
     <bool name="config_screen_off_udfps_default_on">false</bool>
 
+    <!-- Expected value from fast charging status file -->
+    <string name="config_oemFastChargerStatusValue" translatable="false">1</string>
+
+    <!-- Paths to realme's vooc charging status file -->
+    <string name="config_VoocChargerStatusPaths" translatable="false">/sys/class/oplus_chg/battery/voocchg_ing</string>
+
 </resources>
